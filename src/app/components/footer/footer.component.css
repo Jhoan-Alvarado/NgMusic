@@ -1,0 +1,27 @@
+footer {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+
+}
+
+
+img {
+    width: 30px;
+}
+
+ul {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    color: beige;
+    font-size: 20px;
+}

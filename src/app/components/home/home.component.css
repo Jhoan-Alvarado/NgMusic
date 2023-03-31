@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    background-image: url("../../../assets/img/fondo3.avif");
+    background-size: cover;
+    background-position: center;
+    align-items: center ;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+
+}
+
+img{
+    height: 300px;
+    border-radius: 20px;    
+}
+p{
+text-align: justify;
+width: 50%;
+color: aliceblue;
+    font-size: 25px;
+}
+

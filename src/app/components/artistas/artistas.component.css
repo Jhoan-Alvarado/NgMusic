@@ -1,0 +1,67 @@
+section{
+    background-color: rgb(29, 29, 29);
+    }
+    
+    
+    .titulo2{
+    background-image: url("../../../assets/img/fondo_trap.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 25vh;
+    }
+    .titulo2 h2{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 50px;
+    }
+    .artistas{
+    margin-top: 50px;
+    display: flex;
+    /* width: -webkit-fill-available; */
+    
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    
+    }
+    
+    .hombre img{
+    width: 230px;
+    border-radius: 10px;
+    }
+    
+    .hombre{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
+    border-radius: 10px ;
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    }
+    
+    .hombre h3{
+    color: rgb(125, 125, 125);
+    padding: 15px;
+    font-size: 35px;
+    }
+    
+    .hombre p{
+    text-align: justify;
+    padding: 5px;
+    color:azure;
+    }
+    
+    
+    .artistas .hombre:hover {
+    transform: translateY(-30px);
+    box-shadow: 0 20px rgb(86, 86, 86);
+    transition: 0.6s;
+    }
+    
+    
